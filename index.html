@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ToDo App</title>
+</head>
+<body>
+    <!-- Main box -->
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header>ToDo App</header>
+
+        <!-- Hide completed todos checkbox -->
+        <!-- <div class="hideCompleted">
+            <input type="checkbox" class="hideCompletedBtn" id="hideBtn"> <span> <label for="hideBtn">Hide Completed</label> </span>
+        </div> -->
+
+        <!-- input box and add button -->
+        <div class="inputField">
+            <input type="text">
+            <button><i class="fas fa-plus"></i></button>
+        </div>
+
+        <!-- Main todo items -->
+        <ul class="todoList">
+            <!-- Here we go -->
+        </ul>
+
+        <!-- footer -->
+        <footer>
+            <span>You have <span class="CompletedTasks"></span> completed tasks,<br>
+            And <span class="tasksNum"></span> pending tasks.
+            </span>
+            <button>Clear</button>
+        </footer> 
+    </div>
+
+    <script src="third-party.js"></script>
+    <script src="Todo-functions.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
